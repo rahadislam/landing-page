@@ -1,3 +1,4 @@
+import About from './About/About';
 import './App.css';
 import Banner from './Banner/Banner';
 import Cart from './Cart/Cart';
@@ -10,6 +11,7 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <Cart></Cart>
+      <About></About>
       <Footer></Footer>
     </div>
   );
