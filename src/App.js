@@ -1,5 +1,7 @@
 import './App.css';
 import Banner from './Banner/Banner';
+import Cart from './Cart/Cart';
+import Footer from './Footer/Footer';
 import Header from './Header/Header';
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Banner></Banner>
+      <Cart></Cart>
+      <Footer></Footer>
     </div>
   );
 }
